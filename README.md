@@ -2,14 +2,18 @@
 
 Fanding Xu, Zhiwei Yang, Lizhuo Wang, Deyu Meng and Jiangang Long
 
-![figure1](.\main.bmp)
+![figure1](main.bmp)
 
 ## Requirements
 
 torch = 1.11.0
+
 torch_geometric = 2.0.4
+
 torch_scatter = 2.0.9
+
 torch_sparse = 0.6.13
+
 torchmetrics = 0.7.3
 
 ## Usage
