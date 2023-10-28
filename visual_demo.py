@@ -25,7 +25,7 @@ if __name__ == "__main__":
     parser.add_argument('--name', type=str,
                         help='name of the test molecule')
     
-    parser.add_argument('--dataset', type=str, default='esol',
+    parser.add_argument('--dataset', type=str, default='bace',
                         help='which benchmark task to run (default: bace)')
     parser.add_argument('--cuda_num', type=int, default=0,
                         help='which gpu to use if any (-1 for cpu, default: 0)')
@@ -44,7 +44,7 @@ if __name__ == "__main__":
     parser.add_argument('--hidden_channels_e', type=int, default=128,
                         help='model hidden channels for edge embeddings (default: 128)')
     parser.add_argument('--threshold', type=int, default=0.5,
-                        help='threshold (default: 0)')
+                        help='threshold (default: 0.5)')
     args = parser.parse_args()
     
     if args.dataset == 'esol':
