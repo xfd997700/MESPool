@@ -33,7 +33,7 @@ You can use -h or --help to list all the available parameters in the scripts and
 python run_mes.py -h
 ```
 
-All parameters in **run_egin.py** and **run_mes.py** have default settings, you can run them directly. The default benchmark dataset is BACE. You can change the task (dataset) by setting --dataset, e.g:
+All parameters in **run_egin.py** and **run_mes.py** have default settings, you can run them directly. The default benchmark dataset is BACE (also for **visual_demo.py**). You can change the task (dataset) by setting --dataset, e.g:
 
 ```cmd
 python run_mes.py --dataset bbbp
