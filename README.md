@@ -2,6 +2,8 @@
 
 Fanding Xu, Zhiwei Yang, Lizhuo Wang, Deyu Meng and Jiangang Long
 
+**[Pubilshed in Briefings in Bioinformatics](https://academic.oup.com/bib/article/25/1/bbad423/)**
+
 ![figure1](main.bmp)
 
 ## Requirements
